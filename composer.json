@@ -1,0 +1,13 @@
+{
+    "name": "tthao205/fruit-store",
+    "description": "Fruit Store SOA Backend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "InventoryService\\": "InventoryService/",
+            "OrderService\\": "OrderService/",
+            "ProductService\\": "ProductService/",
+            "UserService\\": "UserService/"
+        }
+    }
+}
